@@ -1,2 +1,2 @@
 Workflow notes for the Git coursework.
-Collaboration policy: run tests before each push
+Collaboration policy: run tests before each push; review documentation before merge
