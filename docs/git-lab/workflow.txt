@@ -1,2 +1,2 @@
 Workflow notes for the Git coursework.
-Collaboration policy: baseline
+Collaboration policy: review documentation before merge
