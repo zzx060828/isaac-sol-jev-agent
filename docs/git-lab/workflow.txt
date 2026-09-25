@@ -1,0 +1,2 @@
+Workflow notes for the Git coursework.
+Collaboration policy: baseline

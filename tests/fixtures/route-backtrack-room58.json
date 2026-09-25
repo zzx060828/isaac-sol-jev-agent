@@ -1,0 +1,1145 @@
+{
+  "frame": 20950,
+  "room": 58,
+  "level": "3555408051:3:0",
+  "player": {
+    "head_dir": 3,
+    "move_dir": -1,
+    "aim_dir": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "vel": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "pos": {
+      "x": 840.0,
+      "y": 160.0
+    },
+    "fire_dir": -1
+  },
+  "stats": {
+    "luck": 1.0,
+    "tear_range": 260.0,
+    "player_type": 1,
+    "can_fly": false,
+    "sprite_scale": 0.90000194311142,
+    "range": 260.0,
+    "size": 9.6000213623047,
+    "tear_falling_speed": -0.18337345123291,
+    "tear_height": -23.75,
+    "tears": 10.0,
+    "damage": 4.8244171142578,
+    "shot_speed": 1.0,
+    "speed": 1.1500000953674
+  },
+  "health": {
+    "soul_hearts": 0,
+    "broken_hearts": 0,
+    "max_hearts": 10,
+    "rotten_hearts": 0,
+    "damage_cooldown": 0,
+    "bone_hearts": 0,
+    "extra_lives": 0,
+    "eternal_hearts": 0,
+    "golden_hearts": 0,
+    "black_hearts": 0,
+    "red_hearts": 10
+  },
+  "inventory": {
+    "bombs": 3,
+    "trinket_1": 0,
+    "pill_0": 10,
+    "collectible_count": 5,
+    "active_items": {
+      "0": {
+        "name": "#YUM_HEART_NAME",
+        "item": 45,
+        "charge_type": 0,
+        "description": "#YUM_HEART_DESCRIPTION",
+        "max_charge": 4,
+        "charge": 3,
+        "battery_charge": 0
+      }
+    },
+    "trinket_0": 102,
+    "pill_effect": 5,
+    "pill_identified": true,
+    "can_use": true,
+    "keys": 2,
+    "collectibles": {
+      "456": 1,
+      "340": 1,
+      "730": 1,
+      "103": 1,
+      "45": 1
+    },
+    "card_0": 0,
+    "coins": 4,
+    "item_names": {
+      "456": "Midnight Snack",
+      "340": "Caffeine Pill",
+      "730": "Glass Eye",
+      "103": "Common Cold",
+      "45": "Yum Heart"
+    }
+  },
+  "room_info": {
+    "grid_width": 28,
+    "room_idx": 58,
+    "room_variant": 351,
+    "grid_height": 9,
+    "stage": 3,
+    "room_type": 1,
+    "stage_type": 0,
+    "difficulty": 0,
+    "room_shape": 6,
+    "curses": 0,
+    "top_left": {
+      "x": 60.0,
+      "y": 140.0
+    },
+    "bottom_right": {
+      "x": 1100.0,
+      "y": 420.0
+    },
+    "has_boss": false,
+    "is_first_visit": false,
+    "is_clear": true,
+    "enemy_count": 0,
+    "name": "Normal"
+  },
+  "doors": {
+    "5": {
+      "x": 840.0,
+      "is_open": true,
+      "target_room": 45,
+      "target_room_type": 1,
+      "y": 120.0,
+      "is_locked": false,
+      "target_room_name": "Normal",
+      "traversable": true
+    },
+    "7": {
+      "x": 840.0,
+      "is_open": true,
+      "target_room": 71,
+      "target_room_type": 1,
+      "y": 440.0,
+      "is_locked": false,
+      "target_room_name": "Normal",
+      "traversable": true
+    }
+  },
+  "pickups": [
+    {
+      "shop_item_id": 0,
+      "options_index": 0,
+      "price": 0,
+      "wait": 0,
+      "variant": 350,
+      "id": 1,
+      "pos": {
+        "x": 600.0,
+        "y": 280.0
+      },
+      "sub_type": 126,
+      "pickup_type": "trinket",
+      "name": "Rotten Penny",
+      "description": "Picking up a coin spawns a blue fly",
+      "description_source": "installed EID ab+"
+    }
+  ],
+  "explored_rooms": {
+    "45": {
+      "visited": true,
+      "clear": true,
+      "type": 1,
+      "shape": 1,
+      "walls": {
+        "0": {
+          "x": 40.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": false
+        },
+        "1": {
+          "x": 320.0,
+          "y": 120.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "2": {
+          "x": 600.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "3": {
+          "x": 320.0,
+          "y": 440.0,
+          "approach_clear": true,
+          "has_door": true
+        }
+      },
+      "doors": {
+        "1": {
+          "x": 320.0,
+          "is_open": false,
+          "target_room": 32,
+          "target_room_type": 2,
+          "y": 120.0,
+          "is_locked": true
+        },
+        "2": {
+          "x": 600.0,
+          "is_open": true,
+          "target_room": 46,
+          "target_room_type": 1,
+          "y": 280.0,
+          "is_locked": false
+        },
+        "3": {
+          "x": 320.0,
+          "is_open": true,
+          "target_room": 58,
+          "target_room_type": 1,
+          "y": 440.0,
+          "is_locked": false
+        }
+      },
+      "collectibles": [],
+      "resources": [
+        {
+          "variant": 50,
+          "sub_type": 1,
+          "price": 0,
+          "options_index": 0
+        }
+      ],
+      "resources_omitted": 0,
+      "marked_rocks": [],
+      "machines": [],
+      "floor_exit": false,
+      "name": "Normal"
+    },
+    "46": {
+      "visited": true,
+      "clear": true,
+      "type": 1,
+      "shape": 1,
+      "walls": {
+        "0": {
+          "x": 40.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "1": {
+          "x": 320.0,
+          "y": 120.0,
+          "approach_clear": false,
+          "has_door": false
+        },
+        "2": {
+          "x": 600.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        }
+      },
+      "doors": {
+        "0": {
+          "x": 40.0,
+          "is_open": true,
+          "target_room": 45,
+          "target_room_type": 1,
+          "y": 280.0,
+          "is_locked": false
+        },
+        "2": {
+          "x": 600.0,
+          "is_open": true,
+          "target_room": 47,
+          "target_room_type": 5,
+          "y": 280.0,
+          "is_locked": false
+        }
+      },
+      "collectibles": [],
+      "resources": [],
+      "resources_omitted": 0,
+      "marked_rocks": [],
+      "machines": [],
+      "floor_exit": false,
+      "name": "Normal"
+    },
+    "47": {
+      "visited": true,
+      "clear": true,
+      "type": 5,
+      "shape": 1,
+      "walls": {
+        "0": {
+          "x": 40.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "2": {
+          "x": 600.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "3": {
+          "x": 320.0,
+          "y": 440.0,
+          "approach_clear": true,
+          "has_door": false
+        }
+      },
+      "doors": {
+        "0": {
+          "x": 40.0,
+          "is_open": true,
+          "target_room": 46,
+          "target_room_type": 1,
+          "y": 280.0,
+          "is_locked": false
+        },
+        "2": {
+          "x": 600.0,
+          "is_open": false,
+          "target_room": -10,
+          "target_room_type": 27,
+          "y": 280.0,
+          "is_locked": true
+        }
+      },
+      "collectibles": [],
+      "resources": [
+        {
+          "variant": 70,
+          "sub_type": 4,
+          "price": 0,
+          "options_index": 0
+        }
+      ],
+      "resources_omitted": 0,
+      "marked_rocks": [],
+      "machines": [],
+      "floor_exit": true,
+      "name": "Boss"
+    },
+    "58": {
+      "visited": true,
+      "clear": true,
+      "type": 1,
+      "shape": 6,
+      "walls": {},
+      "doors": {
+        "5": {
+          "x": 840.0,
+          "is_open": true,
+          "target_room": 45,
+          "target_room_type": 1,
+          "y": 120.0,
+          "is_locked": false
+        },
+        "7": {
+          "x": 840.0,
+          "is_open": true,
+          "target_room": 71,
+          "target_room_type": 1,
+          "y": 440.0,
+          "is_locked": false
+        }
+      },
+      "collectibles": [],
+      "resources": [
+        {
+          "variant": 350,
+          "sub_type": 126,
+          "price": 0,
+          "options_index": 0
+        }
+      ],
+      "resources_omitted": 0,
+      "marked_rocks": [],
+      "machines": [],
+      "floor_exit": false,
+      "name": "Normal"
+    },
+    "71": {
+      "visited": true,
+      "clear": true,
+      "type": 1,
+      "shape": 1,
+      "doors": {
+        "1": {
+          "x": 320.0,
+          "is_open": true,
+          "target_room": 58,
+          "target_room_type": 1,
+          "y": 120.0,
+          "is_locked": false
+        },
+        "3": {
+          "x": 320.0,
+          "is_open": true,
+          "target_room": 84,
+          "target_room_type": 1,
+          "y": 440.0,
+          "is_locked": false
+        }
+      },
+      "walls": {
+        "0": {
+          "x": 40.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": false
+        },
+        "1": {
+          "x": 320.0,
+          "y": 120.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "2": {
+          "x": 600.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": false
+        },
+        "3": {
+          "x": 320.0,
+          "y": 440.0,
+          "approach_clear": true,
+          "has_door": true
+        }
+      },
+      "collectibles": [],
+      "resources": [],
+      "resources_omitted": 0,
+      "marked_rocks": [],
+      "machines": [],
+      "floor_exit": false,
+      "name": "Normal"
+    },
+    "82": {
+      "visited": true,
+      "clear": true,
+      "type": 13,
+      "shape": 1,
+      "doors": {
+        "2": {
+          "x": 600.0,
+          "is_open": true,
+          "target_room": 83,
+          "target_room_type": 1,
+          "y": 280.0,
+          "is_locked": false
+        }
+      },
+      "walls": {
+        "0": {
+          "x": 40.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": false
+        },
+        "1": {
+          "x": 320.0,
+          "y": 120.0,
+          "approach_clear": true,
+          "has_door": false
+        },
+        "2": {
+          "x": 600.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "3": {
+          "x": 320.0,
+          "y": 440.0,
+          "approach_clear": true,
+          "has_door": false
+        }
+      },
+      "collectibles": [],
+      "resources": [
+        {
+          "variant": 10,
+          "sub_type": 2,
+          "price": 0,
+          "options_index": 0
+        },
+        {
+          "variant": 10,
+          "sub_type": 2,
+          "price": 0,
+          "options_index": 0
+        }
+      ],
+      "resources_omitted": 0,
+      "marked_rocks": [],
+      "machines": [],
+      "floor_exit": false,
+      "name": "Sacrifice"
+    },
+    "83": {
+      "visited": true,
+      "clear": true,
+      "type": 1,
+      "shape": 1,
+      "doors": {
+        "0": {
+          "x": 40.0,
+          "is_open": true,
+          "target_room": 82,
+          "target_room_type": 13,
+          "y": 280.0,
+          "is_locked": false
+        },
+        "2": {
+          "x": 600.0,
+          "is_open": true,
+          "target_room": 84,
+          "target_room_type": 1,
+          "y": 280.0,
+          "is_locked": false
+        }
+      },
+      "walls": {
+        "0": {
+          "x": 40.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "1": {
+          "x": 320.0,
+          "y": 120.0,
+          "approach_clear": true,
+          "has_door": false
+        },
+        "2": {
+          "x": 600.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "3": {
+          "x": 320.0,
+          "y": 440.0,
+          "approach_clear": true,
+          "has_door": false
+        }
+      },
+      "collectibles": [],
+      "resources": [],
+      "resources_omitted": 0,
+      "marked_rocks": [],
+      "machines": [],
+      "floor_exit": false,
+      "name": "Normal"
+    },
+    "84": {
+      "visited": true,
+      "clear": true,
+      "type": 1,
+      "shape": 1,
+      "doors": {
+        "0": {
+          "x": 40.0,
+          "is_open": true,
+          "target_room": 83,
+          "target_room_type": 1,
+          "y": 280.0,
+          "is_locked": false
+        },
+        "1": {
+          "x": 320.0,
+          "is_open": true,
+          "target_room": 71,
+          "target_room_type": 1,
+          "y": 120.0,
+          "is_locked": false
+        },
+        "2": {
+          "x": 600.0,
+          "is_open": true,
+          "target_room": 85,
+          "target_room_type": 1,
+          "y": 280.0,
+          "is_locked": false
+        },
+        "3": {
+          "x": 320.0,
+          "is_open": true,
+          "target_room": 97,
+          "target_room_type": 10,
+          "y": 440.0,
+          "is_locked": false
+        }
+      },
+      "walls": {
+        "0": {
+          "x": 40.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "1": {
+          "x": 320.0,
+          "y": 120.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "2": {
+          "x": 600.0,
+          "y": 280.0,
+          "approach_clear": true,
+          "has_door": true
+        },
+        "3": {
+          "x": 320.0,
+          "y": 440.0,
+          "approach_clear": true,
+          "has_door": true
+        }
+      },
+      "collectibles": [],
+      "resources": [],
+      "resources_omitted": 0,
+      "marked_rocks": [],
+      "machines": [],
+      "floor_exit": false,
+      "name": "Normal"
+    }
+  },
+  "floor_map": {
+    "level": "3555408051:3:0",
+    "current_room": 58,
+    "grid_width": 13,
+    "visibility": "observed rooms and observed door targets only",
+    "nodes": [
+      {
+        "id": 45,
+        "anchor": [
+          6,
+          3
+        ],
+        "type": 1,
+        "name": "Normal",
+        "shape": 1,
+        "clear_last_seen": true,
+        "walls_observed": true,
+        "remaining_items": [],
+        "resources_last_seen": [
+          {
+            "variant": 50,
+            "sub_type": 1,
+            "price": 0,
+            "options_index": 0
+          }
+        ],
+        "resources_omitted": 0,
+        "marked_rocks_last_seen": [],
+        "machines_last_seen": [],
+        "floor_exit_observed": false,
+        "observed_hops": 1,
+        "first_door_slot": "5"
+      },
+      {
+        "id": 46,
+        "anchor": [
+          7,
+          3
+        ],
+        "type": 1,
+        "name": "Normal",
+        "shape": 1,
+        "clear_last_seen": true,
+        "walls_observed": true,
+        "remaining_items": [],
+        "resources_last_seen": [],
+        "resources_omitted": 0,
+        "marked_rocks_last_seen": [],
+        "machines_last_seen": [],
+        "floor_exit_observed": false,
+        "observed_hops": 2,
+        "first_door_slot": "5"
+      },
+      {
+        "id": 47,
+        "anchor": [
+          8,
+          3
+        ],
+        "type": 5,
+        "name": "Boss",
+        "shape": 1,
+        "clear_last_seen": true,
+        "walls_observed": true,
+        "remaining_items": [],
+        "resources_last_seen": [
+          {
+            "variant": 70,
+            "sub_type": 4,
+            "price": 0,
+            "options_index": 0
+          }
+        ],
+        "resources_omitted": 0,
+        "marked_rocks_last_seen": [],
+        "machines_last_seen": [],
+        "floor_exit_observed": true,
+        "observed_hops": 3,
+        "first_door_slot": "5"
+      },
+      {
+        "id": 58,
+        "anchor": [
+          6,
+          4
+        ],
+        "type": 1,
+        "name": "Normal",
+        "shape": 6,
+        "clear_last_seen": true,
+        "walls_observed": false,
+        "remaining_items": [],
+        "resources_last_seen": [
+          {
+            "variant": 350,
+            "sub_type": 126,
+            "price": 0,
+            "options_index": 0
+          }
+        ],
+        "resources_omitted": 0,
+        "marked_rocks_last_seen": [],
+        "machines_last_seen": [],
+        "floor_exit_observed": false,
+        "observed_hops": 0,
+        "first_door_slot": null
+      },
+      {
+        "id": 71,
+        "anchor": [
+          6,
+          5
+        ],
+        "type": 1,
+        "name": "Normal",
+        "shape": 1,
+        "clear_last_seen": true,
+        "walls_observed": true,
+        "remaining_items": [],
+        "resources_last_seen": [],
+        "resources_omitted": 0,
+        "marked_rocks_last_seen": [],
+        "machines_last_seen": [],
+        "floor_exit_observed": false,
+        "observed_hops": 1,
+        "first_door_slot": "7"
+      },
+      {
+        "id": 82,
+        "anchor": [
+          4,
+          6
+        ],
+        "type": 13,
+        "name": "Sacrifice",
+        "shape": 1,
+        "clear_last_seen": true,
+        "walls_observed": true,
+        "remaining_items": [],
+        "resources_last_seen": [
+          {
+            "variant": 10,
+            "sub_type": 2,
+            "price": 0,
+            "options_index": 0
+          },
+          {
+            "variant": 10,
+            "sub_type": 2,
+            "price": 0,
+            "options_index": 0
+          }
+        ],
+        "resources_omitted": 0,
+        "marked_rocks_last_seen": [],
+        "machines_last_seen": [],
+        "floor_exit_observed": false,
+        "observed_hops": 4,
+        "first_door_slot": "7"
+      },
+      {
+        "id": 83,
+        "anchor": [
+          5,
+          6
+        ],
+        "type": 1,
+        "name": "Normal",
+        "shape": 1,
+        "clear_last_seen": true,
+        "walls_observed": true,
+        "remaining_items": [],
+        "resources_last_seen": [],
+        "resources_omitted": 0,
+        "marked_rocks_last_seen": [],
+        "machines_last_seen": [],
+        "floor_exit_observed": false,
+        "observed_hops": 3,
+        "first_door_slot": "7"
+      },
+      {
+        "id": 84,
+        "anchor": [
+          6,
+          6
+        ],
+        "type": 1,
+        "name": "Normal",
+        "shape": 1,
+        "clear_last_seen": true,
+        "walls_observed": true,
+        "remaining_items": [],
+        "resources_last_seen": [],
+        "resources_omitted": 0,
+        "marked_rocks_last_seen": [],
+        "machines_last_seen": [],
+        "floor_exit_observed": false,
+        "observed_hops": 2,
+        "first_door_slot": "7"
+      }
+    ],
+    "connections": [
+      {
+        "from": 45,
+        "slot": "1",
+        "to": 32,
+        "target_type": 2,
+        "locked_last_seen": true,
+        "open_last_seen": false
+      },
+      {
+        "from": 45,
+        "slot": "2",
+        "to": 46,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 45,
+        "slot": "3",
+        "to": 58,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 46,
+        "slot": "0",
+        "to": 45,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 46,
+        "slot": "2",
+        "to": 47,
+        "target_type": 5,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 47,
+        "slot": "0",
+        "to": 46,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 58,
+        "slot": "5",
+        "to": 45,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 58,
+        "slot": "7",
+        "to": 71,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 71,
+        "slot": "1",
+        "to": 58,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 71,
+        "slot": "3",
+        "to": 84,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 82,
+        "slot": "2",
+        "to": 83,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 83,
+        "slot": "0",
+        "to": 82,
+        "target_type": 13,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 83,
+        "slot": "2",
+        "to": 84,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 84,
+        "slot": "0",
+        "to": 83,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 84,
+        "slot": "1",
+        "to": 71,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 84,
+        "slot": "2",
+        "to": 85,
+        "target_type": 1,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      },
+      {
+        "from": 84,
+        "slot": "3",
+        "to": 97,
+        "target_type": 10,
+        "locked_last_seen": false,
+        "open_last_seen": true
+      }
+    ],
+    "unvisited_observed_rooms": [
+      {
+        "id": 32,
+        "type": 2,
+        "observed_hops": 2,
+        "first_door_slot": "5"
+      },
+      {
+        "id": 85,
+        "type": 1,
+        "observed_hops": 3,
+        "first_door_slot": "7"
+      },
+      {
+        "id": 97,
+        "type": 10,
+        "observed_hops": null,
+        "first_door_slot": null
+      }
+    ],
+    "coverage": {
+      "known_rooms": 8,
+      "known_frontiers": 3,
+      "no_known_frontier": false,
+      "wall_geometry_missing": [
+        58
+      ],
+      "engine_complete_map": false
+    },
+    "secret_hypotheses": [
+      {
+        "cell": 70,
+        "anchor": [
+          5,
+          5
+        ],
+        "observed_neighbors": [
+          71,
+          83
+        ],
+        "unknown_neighbors": [
+          69,
+          57
+        ],
+        "hypothesis": "regular",
+        "possible_types": [
+          "regular"
+        ],
+        "entrances": [
+          {
+            "room": 71,
+            "wall_slot": "0",
+            "observed_hops": 1,
+            "first_door_slot": "7"
+          },
+          {
+            "room": 83,
+            "wall_slot": "1",
+            "observed_hops": 3,
+            "first_door_slot": "7"
+          }
+        ],
+        "executable_now": false
+      },
+      {
+        "cell": 44,
+        "anchor": [
+          5,
+          3
+        ],
+        "observed_neighbors": [
+          45
+        ],
+        "unknown_neighbors": [
+          43,
+          31,
+          57
+        ],
+        "hypothesis": "possible_dead_end",
+        "possible_types": [
+          "regular",
+          "super"
+        ],
+        "entrances": [
+          {
+            "room": 45,
+            "wall_slot": "0",
+            "observed_hops": 1,
+            "first_door_slot": "5"
+          }
+        ],
+        "executable_now": false
+      },
+      {
+        "cell": 81,
+        "anchor": [
+          3,
+          6
+        ],
+        "observed_neighbors": [
+          82
+        ],
+        "unknown_neighbors": [
+          80,
+          68,
+          94
+        ],
+        "hypothesis": "possible_dead_end",
+        "possible_types": [
+          "regular"
+        ],
+        "entrances": [
+          {
+            "room": 82,
+            "wall_slot": "0",
+            "observed_hops": 4,
+            "first_door_slot": "7"
+          }
+        ],
+        "executable_now": false
+      },
+      {
+        "cell": 69,
+        "anchor": [
+          4,
+          5
+        ],
+        "observed_neighbors": [
+          82
+        ],
+        "unknown_neighbors": [
+          68,
+          56,
+          70
+        ],
+        "hypothesis": "possible_dead_end",
+        "possible_types": [
+          "regular"
+        ],
+        "entrances": [
+          {
+            "room": 82,
+            "wall_slot": "1",
+            "observed_hops": 4,
+            "first_door_slot": "7"
+          }
+        ],
+        "executable_now": false
+      },
+      {
+        "cell": 95,
+        "anchor": [
+          4,
+          7
+        ],
+        "observed_neighbors": [
+          82
+        ],
+        "unknown_neighbors": [
+          94,
+          96,
+          108
+        ],
+        "hypothesis": "possible_dead_end",
+        "possible_types": [
+          "regular"
+        ],
+        "entrances": [
+          {
+            "room": 82,
+            "wall_slot": "3",
+            "observed_hops": 4,
+            "first_door_slot": "7"
+          }
+        ],
+        "executable_now": false
+      }
+    ],
+    "hypotheses_omitted": 0,
+    "limitations": "No known frontier does not prove the floor is fully explored. Anchors are not full footprints for large/L rooms. Remote doors and resources need fresh observation. Map hypotheses do not authorize bombing; only current strategy_offers do."
+  }
+}

@@ -1,0 +1,17 @@
+# Copy to config.local.toml; store secrets in environment variables or .secrets/.
+# The planner endpoint must support the configured model; access is provider-specific.
+[astra]
+url = "http://localhost:8080/v1/chat/completions"
+model = "gpt-5.6-sol"
+key_env = "OPENAI_API_KEY"
+timeout = 25.0
+prepare_timeout = 60.0
+max_completion_tokens = 1200
+reasoning_effort = "medium"
+proxy = "direct"
+
+[jev]
+url = "https://openrouter.ai/api/alpha/decisions"
+model = "typesafe/jev-1.13"
+key_env = "OPENROUTER_API_KEY"
+timeout = 4.0

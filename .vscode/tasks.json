@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label":"Offline demo","type":"process","command":"python","args":["-m","isaac_agent","demo"],"problemMatcher":[]},
+    {"label":"Run tests","type":"process","command":"python","args":["-m","unittest","discover","-s","tests","-v"],"group":"test","problemMatcher":[]},
+    {"label":"Build SocketBridge mod","type":"process","command":"python","args":["scripts/build_mod.py"],"problemMatcher":[]}
+  ]
+}

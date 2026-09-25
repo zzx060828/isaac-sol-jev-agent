@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/EmptyEmeraldTablet/SocketBridge",
+  "branch": "refactor/v2",
+  "retrieved": "2026-09-22",
+  "sha256": {
+    "main.lua": "58bac81b38683dd3f7708891de11fde44095515f7f8a5fef9bcd419d01d22b2f",
+    "metadata.xml": "feddb1f39e982642dd34b9bcd298fd6df9ecaf0e9cb10d07fef120486d85d3d0",
+    "LICENCE": "ba924e73138c7b468116e1e66a1696957b9e3d1c1838a10e84e2b065fc179bbb"
+  }
+}

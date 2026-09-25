@@ -1,0 +1,62 @@
+{
+  "operating_policy": {
+    "policy": "Default objective is reliable survival across varied starts. Compare marginal build improvement, health-buffer loss, resource opportunity cost, execution reliability and travel time. A high-quality item is not automatically the best choice. Preserve useful recovery unless a replacement justifies losing future healing. Current counters override earlier plans; unseen drops are not owned resources.",
+    "provenance": "Controller design policy informed by player experience; not an official expert standard",
+    "source_urls": [
+      "https://www.reddit.com/r/bindingofisaac/comments/1jzc42s"
+    ]
+  },
+  "boss_preparation": {
+    "policy": "Before the boss, review health buffer, current active charge, observed affordable healing and the cost of backtracking. Prepare conditional spacing and add priorities while the fast loop handles current enemies. Identify the actual boss after entry. Adapt to observed attacks and vulnerability; do not spend a card, bomb or active item merely because a cached plan mentions it. Rushing timed content is a separate objective, not the default survival policy.",
+    "source_urls": [
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Boss_Rush",
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Devil_Deal"
+    ]
+  },
+  "secret_regular": {
+    "facts": "Regular secret rooms commonly touch three or four rooms. Both neighbor counts can be equally favored; two-neighbor and rare one-neighbor locations also exist. All adjoining entrances need clear approaches, including absence of original enemy-spawn obstructions. Boss/secret/super-secret neighbors are excluded.",
+    "policy": "Use the observed floor graph to compare all supported hypotheses. Prefer evidence and short travel, not neighbor count alone. Missing old wall observations or large-room footprints are unknown, not valid approaches. Only current checked bomb offers authorize execution.",
+    "source_urls": [
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Secret_Room",
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Level_Generation"
+    ]
+  },
+  "secret_super": {
+    "facts": "Super secret rooms touch exactly one ordinary room, typically at a dead end. They tend to be near the boss route, but proximity is not proof. Their layout can offer hearts, chests or machines; rewards are not guaranteed before entry.",
+    "policy": "Distinguish a dead-end hypothesis from a regular-secret hypothesis. Compare remaining bombs with known alternative uses, and retain failure memory when approaching the same candidate from elsewhere.",
+    "source_urls": [
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Secret_Room"
+    ]
+  },
+  "secret_ultra": {
+    "facts": "Ultra secret rooms do not directly touch the normal map. Red-room access tools or the reversed Moon card can reach them. They use a separate item pool and red-room placement constraints; normal wall bombing is not the search method.",
+    "policy": "Current executor does not implement red-room search. Treat this as an unsupported opportunity; do not invent a bomb contract. A floor with no observed frontier can still contain unseen secret rooms.",
+    "source_urls": [
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Secret_Room"
+    ]
+  },
+  "deal_economy": {
+    "facts": "Ordinary red-heart damage can reduce deal-door chances; many deliberate self-damage sources such as blood donation are exceptions. On XL floors the deal door is associated with the second boss. Soul/black-heart buffers can protect red health.",
+    "policy": "Before a boss, consider protecting deal eligibility as well as immediate survival. Compare observed typed door/entry/acquisition history, with explicit completeness. Entering an Angel Room does not incur the first-Devil-entry opportunity cost. Compare permanent health cost, build improvement, exceptions and future Angel opportunities. Devil coin prices and Satanic Bible Boss rewards can still have deal consequences; a normal shop is a different context. Never infer unseen offers, exact deal percentages or a guaranteed next-floor door.",
+    "source_urls": [
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Devil_Deal"
+    ]
+  },
+  "charge_economy": {
+    "facts": "In Repentance a micro battery grants two charges and a little battery grants six; golden batteries cause damage. Charge behavior and overcharge depend on the active item and supporting items.",
+    "policy": "Check ordinary_battery_target before an ordinary battery pickup or purchase: the current primary active has priority, then the pocket active; an inactive Schoolbag slot is not a recipient. The Battery can store an additional use. Charged Keys (subtype 4) combine a key with battery charging and remain strategic. Consider charge waste, useful active uses and whether clearing remaining rooms can supply charge. Do not use an item merely to empty its meter; exact use still requires a current legal resource option. Mega/golden batteries have separate consequences and are not routine pickups.",
+    "source_urls": [
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Batteries",
+      "https://bindingofisaacrebirth.wiki.gg/wiki/The_Battery"
+    ]
+  },
+  "marked_rocks": {
+    "facts": "Tinted Rocks (grid type 4, visible X mark) can drop soul hearts, bombs, keys, chests or unlocked Small Rock; rewards are uncertain. Super Special Rocks (type 22) normally require two explosions. Type 26 is a tinted skull, not a soul-heart rock. Mines/Ashpit tinted rocks may spawn rock spiders.",
+    "policy": "Compare known rock value with secret-room guesses, bomb reserve and deal protection before a boss. Soul-heart protection is useful even with full red health. Do not assume a soul heart or profitable return is guaranteed. Select only present rock_bomb offers; bomb_limit is one placement for ordinary rocks or two for super rocks. bomb_cost counts stock consumed: golden payment costs zero, normal payment keeps one spare. Retreatment and observed explosion/destruction must precede reward collection. No repeated bomb when placement/consumption is unconfirmed. Unsupported altered bombs or unsafe retreat are not executable.",
+    "source_urls": [
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Rocks",
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Rock_Spider",
+      "https://wofsauge.github.io/IsaacDocs/rep/enums/GridEntityType.html"
+    ]
+  }
+}

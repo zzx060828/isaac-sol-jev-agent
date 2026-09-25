@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "isaac-astra-jev"
+version = "0.1.0a1"
+description = "Experimental Isaac agent with asynchronous LLM planning, local control and optional JEV tactics"
+requires-python = ">=3.11"
+dependencies = []
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "zzx060828"}]
+
+[project.scripts]
+isaac-agent = "isaac_agent.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["isaac_agent*"]
+
+[tool.setuptools.package-data]
+isaac_agent = ["item_names.json", "entity_names.json", "enemy_briefs.json", "room_mechanics.json", "decision_knowledge.json", "expert_briefs.json"]

@@ -1,0 +1,913 @@
+{
+  "type": "FULL",
+  "frame": 18400,
+  "room_index": 99,
+  "agent": {
+    "safety_version": 3,
+    "level_id": "2105331953:2:0",
+    "protocol": 1,
+    "input_applied_frame": 18399,
+    "input_deadline": 18404,
+    "rejected_expired": 0,
+    "last_input_sequence": 2269,
+    "control_mode": "FORCE_AI",
+    "repentance_plus": false
+  },
+  "payload": {
+    "PROJECTILES": {
+      "lasers": [],
+      "enemy_projectiles": [
+        {
+          "vel": {
+            "x": -4.1921315193176,
+            "y": -5.6058931350708
+          },
+          "pos": {
+            "x": 341.47515869141,
+            "y": 195.12936401367
+          },
+          "height": -22.529050827026,
+          "variant": 0,
+          "falling_speed": 1.3921169042587,
+          "falling_accel": 0.10000000149012,
+          "collision_radius": 5.0,
+          "id": 140
+        }
+      ],
+      "player_tears": []
+    },
+    "ROOM_LAYOUT": {
+      "grid": {
+        "127": {
+          "state": 0,
+          "x": 320.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 127
+        },
+        "111": {
+          "state": 1,
+          "x": 280.0,
+          "variant": 1,
+          "type": 2,
+          "y": 400.0,
+          "collision": 3,
+          "grid_index": 111
+        },
+        "133": {
+          "state": 0,
+          "x": 560.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 133
+        },
+        "131": {
+          "state": 0,
+          "x": 480.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 131
+        },
+        "134": {
+          "state": 0,
+          "x": 600.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 134
+        },
+        "6": {
+          "state": 0,
+          "x": 280.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 6
+        },
+        "7": {
+          "state": 1,
+          "x": 320.0,
+          "variant": 8,
+          "type": 16,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 7
+        },
+        "8": {
+          "state": 0,
+          "x": 360.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 8
+        },
+        "9": {
+          "state": 0,
+          "x": 400.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 9
+        },
+        "132": {
+          "state": 0,
+          "x": 520.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 132
+        },
+        "130": {
+          "state": 0,
+          "x": 440.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 130
+        },
+        "129": {
+          "state": 0,
+          "x": 400.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 129
+        },
+        "128": {
+          "state": 0,
+          "x": 360.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 128
+        },
+        "13": {
+          "state": 0,
+          "x": 560.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 13
+        },
+        "23": {
+          "state": 1,
+          "x": 360.0,
+          "variant": 1,
+          "type": 2,
+          "y": 160.0,
+          "collision": 3,
+          "grid_index": 23
+        },
+        "15": {
+          "state": 0,
+          "x": 40.0,
+          "variant": 0,
+          "type": 15,
+          "y": 160.0,
+          "collision": 4,
+          "grid_index": 15
+        },
+        "126": {
+          "state": 0,
+          "x": 280.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 126
+        },
+        "29": {
+          "state": 0,
+          "x": 600.0,
+          "variant": 0,
+          "type": 15,
+          "y": 160.0,
+          "collision": 4,
+          "grid_index": 29
+        },
+        "11": {
+          "state": 0,
+          "x": 480.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 11
+        },
+        "58": {
+          "state": 1,
+          "x": 560.0,
+          "variant": 0,
+          "type": 2,
+          "y": 240.0,
+          "collision": 3,
+          "grid_index": 58
+        },
+        "102": {
+          "state": 1,
+          "x": 520.0,
+          "variant": 1,
+          "type": 2,
+          "y": 360.0,
+          "collision": 3,
+          "grid_index": 102
+        },
+        "75": {
+          "state": 0,
+          "x": 40.0,
+          "variant": 0,
+          "type": 15,
+          "y": 320.0,
+          "collision": 4,
+          "grid_index": 75
+        },
+        "123": {
+          "state": 0,
+          "x": 160.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 123
+        },
+        "95": {
+          "state": 1,
+          "x": 240.0,
+          "variant": 0,
+          "type": 2,
+          "y": 360.0,
+          "collision": 3,
+          "grid_index": 95
+        },
+        "122": {
+          "state": 0,
+          "x": 120.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 122
+        },
+        "35": {
+          "state": 1,
+          "x": 240.0,
+          "variant": 0,
+          "type": 2,
+          "y": 200.0,
+          "collision": 3,
+          "grid_index": 35
+        },
+        "45": {
+          "state": 0,
+          "x": 40.0,
+          "variant": 0,
+          "type": 15,
+          "y": 240.0,
+          "collision": 4,
+          "grid_index": 45
+        },
+        "113": {
+          "state": 1,
+          "x": 360.0,
+          "variant": 0,
+          "type": 2,
+          "y": 400.0,
+          "collision": 3,
+          "grid_index": 113
+        },
+        "92": {
+          "state": 1,
+          "x": 120.0,
+          "variant": 2,
+          "type": 2,
+          "y": 360.0,
+          "collision": 3,
+          "grid_index": 92
+        },
+        "120": {
+          "state": 0,
+          "x": 40.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 120
+        },
+        "119": {
+          "state": 0,
+          "x": 600.0,
+          "variant": 0,
+          "type": 15,
+          "y": 400.0,
+          "collision": 4,
+          "grid_index": 119
+        },
+        "59": {
+          "state": 0,
+          "x": 600.0,
+          "variant": 0,
+          "type": 15,
+          "y": 240.0,
+          "collision": 4,
+          "grid_index": 59
+        },
+        "94": {
+          "state": 0,
+          "x": 200.0,
+          "variant": 0,
+          "type": 1,
+          "y": 360.0,
+          "collision": 0,
+          "grid_index": 94
+        },
+        "124": {
+          "state": 0,
+          "x": 200.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 124
+        },
+        "99": {
+          "state": 1,
+          "x": 400.0,
+          "variant": 2,
+          "type": 2,
+          "y": 360.0,
+          "collision": 3,
+          "grid_index": 99
+        },
+        "104": {
+          "state": 0,
+          "x": 600.0,
+          "variant": 0,
+          "type": 15,
+          "y": 360.0,
+          "collision": 4,
+          "grid_index": 104
+        },
+        "121": {
+          "state": 0,
+          "x": 80.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 121
+        },
+        "90": {
+          "state": 0,
+          "x": 40.0,
+          "variant": 0,
+          "type": 15,
+          "y": 360.0,
+          "collision": 4,
+          "grid_index": 90
+        },
+        "89": {
+          "state": 0,
+          "x": 600.0,
+          "variant": 0,
+          "type": 15,
+          "y": 320.0,
+          "collision": 4,
+          "grid_index": 89
+        },
+        "76": {
+          "state": 1,
+          "x": 80.0,
+          "variant": 0,
+          "type": 2,
+          "y": 320.0,
+          "collision": 3,
+          "grid_index": 76
+        },
+        "88": {
+          "state": 1,
+          "x": 560.0,
+          "variant": 0,
+          "type": 2,
+          "y": 320.0,
+          "collision": 3,
+          "grid_index": 88
+        },
+        "30": {
+          "state": 0,
+          "x": 40.0,
+          "variant": 0,
+          "type": 15,
+          "y": 200.0,
+          "collision": 4,
+          "grid_index": 30
+        },
+        "125": {
+          "state": 0,
+          "x": 240.0,
+          "variant": 0,
+          "type": 15,
+          "y": 440.0,
+          "collision": 4,
+          "grid_index": 125
+        },
+        "21": {
+          "state": 1,
+          "x": 280.0,
+          "variant": 1,
+          "type": 2,
+          "y": 160.0,
+          "collision": 3,
+          "grid_index": 21
+        },
+        "105": {
+          "state": 0,
+          "x": 40.0,
+          "variant": 0,
+          "type": 15,
+          "y": 400.0,
+          "collision": 4,
+          "grid_index": 105
+        },
+        "46": {
+          "state": 1,
+          "x": 80.0,
+          "variant": 1,
+          "type": 2,
+          "y": 240.0,
+          "collision": 3,
+          "grid_index": 46
+        },
+        "12": {
+          "state": 0,
+          "x": 520.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 12
+        },
+        "0": {
+          "state": 0,
+          "x": 40.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 0
+        },
+        "14": {
+          "state": 0,
+          "x": 600.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 14
+        },
+        "10": {
+          "state": 0,
+          "x": 440.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 10
+        },
+        "3": {
+          "state": 0,
+          "x": 160.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 3
+        },
+        "4": {
+          "state": 0,
+          "x": 200.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 4
+        },
+        "5": {
+          "state": 0,
+          "x": 240.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 5
+        },
+        "1": {
+          "state": 0,
+          "x": 80.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 1
+        },
+        "74": {
+          "state": 1,
+          "x": 600.0,
+          "variant": 7,
+          "type": 16,
+          "y": 280.0,
+          "collision": 4,
+          "grid_index": 74
+        },
+        "2": {
+          "state": 0,
+          "x": 120.0,
+          "variant": 0,
+          "type": 15,
+          "y": 120.0,
+          "collision": 4,
+          "grid_index": 2
+        },
+        "60": {
+          "state": 0,
+          "x": 40.0,
+          "variant": 0,
+          "type": 15,
+          "y": 280.0,
+          "collision": 4,
+          "grid_index": 60
+        },
+        "44": {
+          "state": 0,
+          "x": 600.0,
+          "variant": 0,
+          "type": 15,
+          "y": 200.0,
+          "collision": 4,
+          "grid_index": 44
+        },
+        "39": {
+          "state": 1,
+          "x": 400.0,
+          "variant": 2,
+          "type": 2,
+          "y": 200.0,
+          "collision": 3,
+          "grid_index": 39
+        },
+        "42": {
+          "state": 1,
+          "x": 520.0,
+          "variant": 1,
+          "type": 2,
+          "y": 200.0,
+          "collision": 3,
+          "grid_index": 42
+        },
+        "32": {
+          "state": 1,
+          "x": 120.0,
+          "variant": 2,
+          "type": 2,
+          "y": 200.0,
+          "collision": 3,
+          "grid_index": 32
+        }
+      },
+      "doors": {
+        "2": {
+          "x": 600.0,
+          "target_room": 100,
+          "y": 280.0,
+          "target_room_type": 8,
+          "is_open": false,
+          "is_locked": false
+        },
+        "1": {
+          "x": 320.0,
+          "target_room": 86,
+          "y": 120.0,
+          "target_room_type": 1,
+          "is_open": false,
+          "is_locked": false
+        }
+      },
+      "height": 9,
+      "width": 15,
+      "grid_size": 135
+    },
+    "PLAYER_HEALTH": [
+      {
+        "rotten_hearts": 0,
+        "extra_lives": 0,
+        "golden_hearts": 0,
+        "broken_hearts": 0,
+        "red_hearts": 5,
+        "black_hearts": 0,
+        "max_hearts": 10,
+        "bone_hearts": 0,
+        "soul_hearts": 2,
+        "eternal_hearts": 0
+      }
+    ],
+    "PICKUPS": [],
+    "BOMBS": [],
+    "PLAYER_POSITION": [
+      {
+        "vel": {
+          "x": 1.2270064353943,
+          "y": 0.45569294691086
+        },
+        "pos": {
+          "x": 314.13732910156,
+          "y": 157.43879699707
+        },
+        "head_dir": 2,
+        "move_dir": 2,
+        "fire_dir": -1,
+        "aim_dir": {
+          "x": 0.0,
+          "y": 0.0
+        }
+      }
+    ],
+    "ROOM_INFO": {
+      "enemy_count": 4,
+      "curses": 8,
+      "is_first_visit": true,
+      "is_clear": false,
+      "room_idx": 99,
+      "has_boss": false,
+      "stage": 2,
+      "grid_width": 15,
+      "stage_type": 0,
+      "top_left": {
+        "x": 60.0,
+        "y": 140.0
+      },
+      "room_shape": 1,
+      "bottom_right": {
+        "x": 580.0,
+        "y": 420.0
+      },
+      "difficulty": 0,
+      "grid_height": 9,
+      "room_type": 1,
+      "room_variant": 129
+    },
+    "ENEMIES": [
+      {
+        "collision_radius": 17.0,
+        "subtype": 0,
+        "projectile_delay": -1,
+        "collision_class": 4,
+        "max_hp": 8.0,
+        "type": 14,
+        "id": 2,
+        "state_frame": 0,
+        "variant": 0,
+        "is_champion": false,
+        "projectile_cooldown": 0,
+        "target_pos": {
+          "x": 314.13732910156,
+          "y": 157.43879699707
+        },
+        "is_vulnerable": true,
+        "vel": {
+          "x": -0.18960745632648,
+          "y": -0.023723442107439
+        },
+        "pos": {
+          "x": 418.03945922852,
+          "y": 219.86560058594
+        },
+        "v1": {
+          "x": 0.1763326972723,
+          "y": 0.041516192257404
+        },
+        "state": 4,
+        "v2": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "hp": 3.572811126709,
+        "distance": 121.21368408203,
+        "is_boss": false
+      },
+      {
+        "collision_radius": 17.0,
+        "subtype": 0,
+        "projectile_delay": -1,
+        "collision_class": 4,
+        "max_hp": 8.0,
+        "type": 14,
+        "id": 1,
+        "state_frame": 0,
+        "variant": 1,
+        "is_champion": false,
+        "projectile_cooldown": 0,
+        "target_pos": {
+          "x": 314.13732910156,
+          "y": 157.43879699707
+        },
+        "is_vulnerable": true,
+        "vel": {
+          "x": 0.15936152637005,
+          "y": 0.59816348552704
+        },
+        "pos": {
+          "x": 195.34622192383,
+          "y": 231.07850646973
+        },
+        "v1": {
+          "x": -0.022142982110381,
+          "y": 0.33947721123695
+        },
+        "state": 4,
+        "v2": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "hp": 8.0,
+        "distance": 139.76455688477,
+        "is_boss": false
+      },
+      {
+        "collision_radius": 17.0,
+        "subtype": 0,
+        "projectile_delay": -1,
+        "collision_class": 4,
+        "max_hp": 8.0,
+        "type": 14,
+        "id": 8,
+        "state_frame": 0,
+        "variant": 0,
+        "is_champion": false,
+        "projectile_cooldown": 8,
+        "target_pos": {
+          "x": 314.13732910156,
+          "y": 157.43879699707
+        },
+        "is_vulnerable": true,
+        "vel": {
+          "x": -0.41018214821815,
+          "y": -0.55113738775253
+        },
+        "pos": {
+          "x": 421.94815063477,
+          "y": 303.28219604492
+        },
+        "v1": {
+          "x": 0.061181429773569,
+          "y": 0.049063339829445
+        },
+        "state": 4,
+        "v2": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "hp": 3.572811126709,
+        "distance": 181.36557006836,
+        "is_boss": false
+      },
+      {
+        "collision_radius": 17.0,
+        "subtype": 0,
+        "projectile_delay": -1,
+        "collision_class": 4,
+        "max_hp": 8.0,
+        "type": 14,
+        "id": 7,
+        "state_frame": 0,
+        "variant": 0,
+        "is_champion": false,
+        "projectile_cooldown": 0,
+        "target_pos": {
+          "x": 314.13732910156,
+          "y": 157.43879699707
+        },
+        "is_vulnerable": true,
+        "vel": {
+          "x": 1.0455422401428,
+          "y": -0.54882550239563
+        },
+        "pos": {
+          "x": 205.49787902832,
+          "y": 308.70788574219
+        },
+        "v1": {
+          "x": 0.2599393427372,
+          "y": 0.038470294326544
+        },
+        "state": 4,
+        "v2": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "hp": 8.0,
+        "distance": 186.23873901367,
+        "is_boss": false
+      }
+    ],
+    "PLAYER_INVENTORY": [
+      {
+        "card_0": 0,
+        "collectible_count": 3,
+        "pill_0": 0,
+        "trinket_0": 109,
+        "collectibles": {
+          "307": 1,
+          "45": 1,
+          "183": 1
+        },
+        "can_use": true,
+        "active_items": {
+          "0": {
+            "charge": 2,
+            "name": "#YUM_HEART_NAME",
+            "max_charge": 4,
+            "description": "#YUM_HEART_DESCRIPTION",
+            "item": 45,
+            "charge_type": 0,
+            "battery_charge": 0
+          }
+        },
+        "bombs": 2,
+        "keys": 2,
+        "trinket_1": 0,
+        "coins": 2
+      }
+    ],
+    "FIRE_HAZARDS": [],
+    "PLAYER_STATS": [
+      {
+        "damage": 4.427188873291,
+        "player_type": 1,
+        "sprite_scale": 1.0,
+        "tears": 6.6042289733887,
+        "tear_range": 290.0,
+        "can_fly": false,
+        "speed": 0.95000004768372,
+        "range": 290.0,
+        "shot_speed": 1.1599999666214,
+        "tear_falling_speed": -0.29056650400162,
+        "tear_height": -23.75,
+        "luck": 0.0,
+        "size": 10.0
+      }
+    ],
+    "INTERACTABLES": []
+  },
+  "sensors": {
+    "PROJECTILES": {
+      "collect_frame": 18400
+    },
+    "ROOM_LAYOUT": {
+      "collect_frame": 18400
+    },
+    "PLAYER_HEALTH": {
+      "collect_frame": 18400
+    },
+    "PICKUPS": {
+      "collect_frame": 18396
+    },
+    "BOMBS": {
+      "collect_frame": 18400
+    },
+    "PLAYER_POSITION": {
+      "collect_frame": 18400
+    },
+    "ROOM_INFO": {
+      "collect_frame": 18396
+    },
+    "ENEMIES": {
+      "collect_frame": 18400
+    },
+    "PLAYER_INVENTORY": {
+      "collect_frame": 18398
+    },
+    "FIRE_HAZARDS": {
+      "collect_frame": 18400
+    },
+    "PLAYER_STATS": {
+      "collect_frame": 18398
+    },
+    "INTERACTABLES": {
+      "collect_frame": 18398
+    }
+  }
+}

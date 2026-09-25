@@ -1,0 +1,35 @@
+{
+  "poop": {
+    "facts": "Ordinary brown poop is shootable. A pile has a 10% chance of a pickup; among these drops, 75% are coins and 25% hearts. These are chances, not promised money. Brown Cap makes destroyed poop explode: when inventory.poop_explosions or held Brown Cap is present, maintain blast clearance and check chain reactions. Other poop variants have different effects and hazards.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Black_poop"
+  },
+  "fire": {
+    "facts": "Ordinary fires can be put out with tears and damage the player on contact. Their reward chance is 25% normally, 10% in Repentance Hard Mode; reward is a coin or heart. Red fires can shoot. Blue, purple and white fires must not be treated as ordinary fires.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Fireplace"
+  },
+  "secret": {
+    "facts": "Regular secret rooms usually neighbor three or four rooms; this is not a guarantee. Each adjoining entrance must have a clear approach, without rocks, pits or spikes. Super secret rooms neighbor one ordinary room. Evaluate bomb opportunity cost from observed map evidence, never claim an unseen room is certain.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Secret_Room"
+  },
+  "deal": {
+    "facts": "Repentance: leaving the first offered Devil Room entirely unentered makes the next successful deal offer an Angel Room, not necessarily the next floor. Entering that Devil Room and buying nothing loses the skip-entry replacement but preserves ordinary Angel eligibility. This rule is not a reason to avoid entering an Angel Room. Health-paid Devil purchases normally remove natural Angel access; coin-priced Devil purchases via Keeper/A Pound of Flesh and Satanic Bible health-priced Boss rewards can also count. Ordinary shop purchases and free Devil loot via Credit Card/Coupon or Krampus do not by themselves count; The Lost has special free-deal rules. Book of Virtues/Act of Contrition are exceptions to the normal lockout. Angel free alternatives may be mutually exclusive. Use observed prices, surviving health and typed history; a skip decision is not proof of remaining unentered, and incomplete history is not zero past visits.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Devil_Deal"
+  },
+  "pressure_plate": {
+    "facts": "Ordinary pressure plates (grid type 20, variant 0, unpressed state 0) in trap rooms must all be pressed to clear the room even after enemies die. They disarm room hazards. Reward plates (variant 1) and Greed plates (2) have different effects and are not routine disarming targets. A key does not bypass a trap room clear condition.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Buttons"
+  },
+  "donation": {
+    "facts": "Blood donation trades red health for uncertain coin payouts and can end in a machine item payout. Free red hearts already visible in this room can fund a bounded donate-withdraw-recover contract. Consider actual shop needs and spare healing; do not spend health based on promised drops. Keep at least two red hearts under the offered conservative one-heart cost bound. Cycle contracts exclude paid, option-group and special-health pickups; items/cards/pills are not automatically spent to fund a cycle. If only oversized red hearts are available, a further single contact may precede healing only when current owned red health alone covers it; avoid wasting a full heart on a half-heart deficit.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Machines#Blood_Donation_Machine"
+  },
+  "marked_rocks": {
+    "facts": "Tinted Rocks (grid type 4, visible X mark) can drop soul hearts, bombs, keys, chests or unlocked Small Rock; rewards are uncertain. Super Special Rocks (type 22) normally require two explosions. Type 26 is a tinted skull, not a soul-heart rock. Mines/Ashpit tinted rocks may spawn rock spiders.",
+    "policy": "Compare known rock value with secret-room guesses, bomb reserve and deal protection before a boss. Soul-heart protection is useful even with full red health. Do not assume a soul heart or profitable return is guaranteed. Select only present rock_bomb offers; bomb_limit is one placement for ordinary rocks or two for super rocks. bomb_cost counts stock consumed: golden payment costs zero, normal payment keeps one spare. Retreatment and observed explosion/destruction must precede reward collection. No repeated bomb when placement/consumption is unconfirmed. Unsupported altered bombs or unsafe retreat are not executable.",
+    "source_urls": [
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Rocks",
+      "https://bindingofisaacrebirth.wiki.gg/wiki/Rock_Spider",
+      "https://wofsauge.github.io/IsaacDocs/rep/enums/GridEntityType.html"
+    ]
+  }
+}

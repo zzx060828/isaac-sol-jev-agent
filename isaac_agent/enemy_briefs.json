@@ -1,0 +1,445 @@
+{
+  "85:0": {
+    "name": "Spider",
+    "facts": "Moves in irregular bursts; nearby line of sight can trigger pursuit. Small diagonal gaps may be passable for it.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Spider",
+    "tags": [
+      "chase",
+      "burst_movement"
+    ]
+  },
+  "94:0": {
+    "name": "Big Spider",
+    "facts": "Moves like a Spider. Death normally produces two small Spiders; it is not a continuous summoner. Sufficient overkill, such as a bomb, can prevent that split.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Spider",
+    "tags": [
+      "chase",
+      "death_spawn"
+    ]
+  },
+  "24:0": {
+    "name": "Globin",
+    "facts": "Fast pursuer with one-heart contact damage. Collapses into goo and then regenerates unless the goo is destroyed. Finish the collapsed form when feasible.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Globin",
+    "tags": [
+      "chase",
+      "regenerate"
+    ]
+  },
+  "24:1": {
+    "name": "Gazing Globin",
+    "facts": "Faster Globin variant; its goo slides. Destroy the goo before it regenerates. Contact costs a full heart.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Globin",
+    "tags": [
+      "chase",
+      "regenerate"
+    ]
+  },
+  "24:2": {
+    "name": "Dank Globin",
+    "facts": "Regenerating Globin variant. Collapsing creates slowing black creep and a Spider; finishing it leaves more black creep.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Globin",
+    "tags": [
+      "chase",
+      "regenerate",
+      "creep"
+    ]
+  },
+  "24:3": {
+    "name": "Cursed Globin",
+    "facts": "Collapse produces two goo piles that can regenerate into two enemies. Destroy the piles promptly when safely reachable.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Globin",
+    "tags": [
+      "chase",
+      "regenerate"
+    ]
+  },
+  "99:0": {
+    "name": "Gurdy Jr.",
+    "facts": "Standard form: abrupt fast charges can bounce off walls; a jump releases radial shots on landing. Below half health it repeatedly charges. Do not rely on a charge warning; favor distance. Champion behavior can differ.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Gurdy_Jr.",
+    "tags": [
+      "charge",
+      "jump"
+    ]
+  },
+  "27:0": {
+    "name": "Host",
+    "facts": "Normally protected while its head is down. Raising its head exposes a vulnerable stem and precedes three spread shots. Use observed vulnerability to time attacks. Ordinary Hosts do not deal body-contact damage; their emitted projectiles remain dangerous. Do not generalize this to Hard, Mobile or other Host variants.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Host",
+    "tags": [
+      "armored",
+      "burst",
+      "no_contact_damage"
+    ]
+  },
+  "255:0": {
+    "name": "Night Crawler",
+    "facts": "Emerges at changing locations and emits four short-range spiraling shots when it sees Isaac.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Dank_Depths"
+  },
+  "22:0": {
+    "name": "Hive",
+    "facts": "Avoids Isaac and produces Attack Flies when approached; death releases a group of flies.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Cellar",
+    "tags": [
+      "spawn"
+    ]
+  },
+  "205:0": {
+    "name": "Nest",
+    "facts": "Avoids Isaac while spawning Spiders when he approaches. Death can release a Big Spider or Trite.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Cellar",
+    "tags": [
+      "spawn"
+    ]
+  },
+  "218:0": {
+    "name": "Wall Hugger",
+    "facts": "Indestructible contact hazard. Extends spikes shortly after room entry, then follows room obstacles. Avoid it rather than expecting shots to kill it.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Sheol",
+    "tags": [
+      "invulnerable"
+    ]
+  },
+  "100:0": {
+    "name": "Widow",
+    "facts": "Jumps toward Isaac; lands with slowing creep and Sacks, or spits Spiders. Champion summons and timing differ.",
+    "tags": [
+      "jump",
+      "spawn"
+    ],
+    "tactics": "Move laterally before landing; avoid chasing the airborne boss; remove nearby spiders and reachable Sacks.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Widow"
+  },
+  "30:2": {
+    "name": "Sack",
+    "facts": "Stationary, regenerating spawner. Damage shrinks it and interrupts spider production until it swells again.",
+    "tags": [
+      "spawn",
+      "regenerate"
+    ],
+    "tactics": "Finish a reachable Sack while maintaining space from its spiders.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Sack_%28Enemy%29"
+  },
+  "88:2": {
+    "name": "Walking Sack",
+    "facts": "Wanders and spawns spiders; unlike a stationary Sack, it does not shrink or regenerate.",
+    "tags": [
+      "spawn"
+    ],
+    "tactics": "Keep shooting from range; do not apply stationary-Sack regeneration assumptions.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Sack_%28Enemy%29"
+  },
+  "30:0": {
+    "name": "Boil",
+    "facts": "Regenerates toward full size; swollen Boils release projectile clusters.",
+    "tags": [
+      "regenerate",
+      "burst"
+    ],
+    "tactics": "Keep distance and finish one reachable target instead of repeatedly switching.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Sack_%28Enemy%29"
+  },
+  "30:1": {
+    "name": "Gut",
+    "facts": "Regenerating Boil variant that fires explosive arcing Ipecac shots.",
+    "tags": [
+      "regenerate",
+      "explosive_shot"
+    ],
+    "tactics": "Keep lateral escape room; avoid anticipated impact areas.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Sack_%28Enemy%29"
+  },
+  "12:0": {
+    "name": "Horf",
+    "facts": "Stationary; shoots aimed projectiles when Isaac enters its attack range.",
+    "tags": [
+      "aimed_shot"
+    ],
+    "tactics": "Use available tear range, then make small lateral dodges instead of approaching.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Horf"
+  },
+  "15:0": {
+    "name": "Clotty",
+    "facts": "Wanders and fires four shots in cardinal directions.",
+    "tags": [
+      "cardinal_burst"
+    ],
+    "tactics": "Keep distance; use firing windows and sidestep cardinal volleys.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Clotty"
+  },
+  "23:0": {
+    "name": "Charger",
+    "facts": "Alignment vertically or horizontally triggers a fast straight charge.",
+    "tags": [
+      "cardinal_charge"
+    ],
+    "tactics": "Avoid prolonged alignment at short range; step perpendicular to its charge.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Charger"
+  },
+  "23:1": {
+    "name": "Drowned Charger",
+    "facts": "Charges on cardinal alignment and releases four diagonal projectiles on death.",
+    "tags": [
+      "cardinal_charge",
+      "death_shots"
+    ],
+    "tactics": "Sidestep charges; keep space when delivering the final hit.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Charger"
+  },
+  "23:2": {
+    "name": "Dank Charger",
+    "facts": "Fast charge bounces off walls and leaves slowing black creep.",
+    "tags": [
+      "cardinal_charge"
+    ],
+    "tactics": "Do not assume reaching a wall ends the dash; avoid its trail.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Charger"
+  },
+  "20:0": {
+    "name": "Monstro",
+    "facts": "Hops and fires projectile clusters; large jumps target Isaac and release landing projectiles.",
+    "tags": [
+      "jump",
+      "burst"
+    ],
+    "tactics": "Leave the landing position and preserve lateral room; do not close while airborne.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Monstro"
+  },
+  "19:0": {
+    "name": "Larry Jr.",
+    "facts": "Segmented bodies turn at obstacles or segment deaths; create poop and can split into smaller bodies.",
+    "tags": [
+      "segmented"
+    ],
+    "tactics": "Avoid crossing any body segment; keep distance as paths change after a kill.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Larry_Jr."
+  },
+  "67:0": {
+    "name": "Duke of Flies",
+    "facts": "Moves diagonally and spawns orbiting flies that block shots, plus chasing flies.",
+    "tags": [
+      "spawn"
+    ],
+    "tactics": "Clear threatening nearby flies, then shoot through an opening at the boss.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/The_Duke_of_Flies"
+  },
+  "261:0": {
+    "name": "Dingle",
+    "facts": "Uses aimed spread shots, summons Dips, and performs repeated long dashes. Champions alter the sequence.",
+    "tags": [
+      "charge",
+      "burst",
+      "spawn"
+    ],
+    "tactics": "Keep turning space; dodge the entire dash sequence before resuming stationary fire.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Dingle"
+  },
+  "227:0": {
+    "name": "Bony",
+    "facts": "Wanders and quickly throws a bone when aligned with Isaac.",
+    "tags": [
+      "aimed_shot"
+    ],
+    "tactics": "Avoid holding a close firing line; sidestep with room behind you.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Bony"
+  },
+  "227:1": {
+    "name": "Black Bony",
+    "facts": "Fires three bones in sequence and explodes on death.",
+    "tags": [
+      "aimed_shot",
+      "death_explosion"
+    ],
+    "tactics": "Keep blast clearance even for the final hit; expect follow-up bones.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Bony"
+  },
+  "10:1": {
+    "name": "Gaper",
+    "facts": "Pursues Isaac and may leave a Pacer or Gusher on death.",
+    "tags": [
+      "chase"
+    ],
+    "tactics": "Kite while shooting; confirm the remaining entity before changing goals.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Basement"
+  },
+  "10:0": {
+    "name": "Frowning Gaper",
+    "facts": "Speeds up after seeing Isaac; may transform on death.",
+    "tags": [
+      "chase"
+    ],
+    "tactics": "Build distance early and leave a turn available.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Basement"
+  },
+  "29:0": {
+    "name": "Hopper",
+    "facts": "Hops around, dealing contact damage; fire can turn it into a Flaming Hopper.",
+    "tags": [
+      "jump"
+    ],
+    "tactics": "Avoid its landing path rather than chasing its current airborne position.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Basement"
+  },
+  "226:0": {
+    "name": "Skinny",
+    "facts": "Pursues Isaac and leaves a short-lived damaging red creep trail.",
+    "tags": [
+      "chase",
+      "creep"
+    ],
+    "tactics": "Kite beside its path rather than crossing behind it.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Basement"
+  },
+  "226:1": {
+    "name": "Rotty",
+    "reviewed": "2026-09-24",
+    "facts": "Pursues Isaac while leaving short-lived red creep. On death can release a Bony or Attack Flies; this is a death spawn, not continuous summoning.",
+    "tags": ["chase", "creep"],
+    "tactics": "Leave turning room before reaching a wall; skirt its path instead of crossing its creep trail. Recheck for new enemies after killing it.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Caves"
+  },
+  "16:2": {
+    "name": "Mulliboom",
+    "facts": "Chases Isaac and explodes on contact or death.",
+    "tags": [
+      "chase",
+      "death_explosion"
+    ],
+    "tactics": "Shoot only with blast clearance; retreat before finishing it nearby.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Basement"
+  },
+  "18:0": {
+    "name": "Attack Fly",
+    "facts": "Red fly that chases Isaac and deals contact damage.",
+    "tags": [
+      "chase"
+    ],
+    "tactics": "Clear close pursuers without stepping toward them.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/The_Catacombs"
+  },
+  "14:0": {
+    "name": "Pooter",
+    "facts": "Drifts toward Isaac and fires an aimed shot; lacks contact damage.",
+    "tags": [
+      "aimed_shot",
+      "no_contact_damage"
+    ],
+    "tactics": "Use range and lateral dodges.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Caves"
+  },
+  "25:0": {
+    "name": "Boom Fly",
+    "facts": "Moves diagonally and explodes on death.",
+    "tags": [
+      "death_explosion"
+    ],
+    "tactics": "Keep blast clearance before shooting the final hit.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/The_Catacombs"
+  },
+  "25:1": {
+    "name": "Red Boom Fly",
+    "facts": "Moves diagonally and releases six radial shots on death.",
+    "tags": [
+      "death_shots"
+    ],
+    "tactics": "Leave gaps for the death volley; do not confuse it with the ordinary explosive variant.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/The_Catacombs"
+  },
+  "80:0": {
+    "name": "Moter",
+    "facts": "Chases Isaac and splits into two Attack Flies on death.",
+    "tags": [
+      "chase",
+      "death_spawn"
+    ],
+    "tactics": "Maintain space for both new pursuers after the kill.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/The_Catacombs"
+  },
+  "62:0": {
+    "name": "Pin",
+    "facts": "Burrows, then leaps toward Isaac before returning underground.",
+    "tags": [
+      "jump",
+      "burrow"
+    ],
+    "tactics": "Avoid chasing its underground position; leave lateral room for the emergence.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Pin"
+  },
+  "29:1": {
+    "name": "Trite",
+    "facts": "Leaps less often than a Hopper but covers much greater distances.",
+    "tags": [
+      "jump"
+    ],
+    "tactics": "Preserve room to change direction; do not assume a distant Trite cannot reach you.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Trite"
+  },
+  "244:0": {
+    "name": "Round Worm",
+    "facts": "Emerges at changing positions and fires an aimed projectile when Isaac is in sight.",
+    "tags": [
+      "burrow",
+      "aimed_shot"
+    ],
+    "tactics": "Reacquire the visible target and dodge laterally; avoid standing on its emergence point.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Catacombs"
+  },
+  "14:1": {
+    "name": "Super Pooter",
+    "facts": "Slowly drifts toward Isaac and fires two aimed blood shots in a V formation. Standard variant does not deal contact damage.",
+    "tags": [
+      "aimed_shot",
+      "spread_shot",
+      "no_contact_damage"
+    ],
+    "tactics": "Dodge across the V gap or perpendicular to its aim. Do not retreat into a wall merely to avoid the body.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Caves"
+  },
+  "217:0": {
+    "name": "Dip",
+    "facts": "Dashes slowly in changing directions and deals contact damage.",
+    "tags": [
+      "charge"
+    ],
+    "tactics": "Keep room to turn and shoot across its path; small bodies remain contact hazards.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Basement"
+  },
+  "88:0": {
+    "name": "Walking Boil",
+    "facts": "Wanders and fires short-range projectile clusters; does not shrink or regenerate.",
+    "tags": [
+      "burst"
+    ],
+    "tactics": "Keep range and a lateral escape route before a burst.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Necropolis"
+  },
+  "88:1": {
+    "name": "Walking Gut",
+    "facts": "Wanders and fires explosive Ipecac shots; does not shrink or regenerate.",
+    "tags": [
+      "explosive_projectile"
+    ],
+    "tactics": "Avoid the blast around projectile impact, not just direct bullet contact. Allow the local explosive-projectile guard to override aim.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Necropolis"
+  },
+  "262:0": {
+    "name": "Mega Maw",
+    "reviewed": "2026-09-24",
+    "facts": "Stationary boss. Normal form fires scattered aimed blood shots, expanding rings of flames (some rotate), and spits Hoppers below itself. Black champion replaces Hoppers with spiders thrown toward Isaac and has no flame attacks. Red champion uses different curved/spiraling blood patterns, no flames or summons; its attacks deal a full heart. Champion identity may be unknown: follow observed hazards, not an assumed normal pattern.",
+    "tags": ["burst"],
+    "tactics": "Keep room to sidestep around expanding rings. Recheck curved hazards each update; clear nearby pursuers without chasing into the boss.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Mega_Maw"
+  },
+  "64:0": {
+    "name": "Pestilence",
+    "facts": "Leaves damaging green creep while moving and fires explosive Ipecac shots that create creep on impact. Initially summons Chargers or Spitties; after losing its head it fires faster and summons Attack Flies. Body contact costs a full heart. Grey champion attacks and creep differ; use observed hazards rather than assuming the normal pattern.",
+    "source_url": "https://bindingofisaacrebirth.wiki.gg/wiki/Pestilence",
+    "tags": [
+      "spawn",
+      "creep",
+      "explosive_projectile"
+    ]
+  }
+}
