@@ -696,6 +696,7 @@ class BridgeServer:
         self.controller = Controller(models, log)
         self.writer = None
         self.client_tasks = set()
+        self.closing = False
         self.last_frame = -1
         self.skipped_frames = 0
         self.run_ended = asyncio.Event()
@@ -749,7 +750,7 @@ class BridgeServer:
         print("SocketBridge connected; waiting for agent capability handshake", flush=True)
         configured = False
         try:
-            while True:
+            while not self.closing:
                 try:
                     line = await asyncio.wait_for(reader.readline(), 0.5)
                 except asyncio.TimeoutError:
@@ -834,6 +835,10 @@ class BridgeServer:
             self.log.write("disconnected")
 
     async def close(self):
+        # A completed read can race with wait_for cancellation on Python 3.11.
+        # The explicit condition prevents the client loop from starting another
+        # read after shutdown; its finally block still sends MANUAL and closes.
+        self.closing = True
         tasks = list(self.client_tasks)
         for task in tasks:
             task.cancel()
